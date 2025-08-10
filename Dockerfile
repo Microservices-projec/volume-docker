@@ -1,7 +1,7 @@
 FROM python
 
-WORKDIR /myapp.py
+WORKDIR /myapp
 
-COPY . . 
+COPY ./myapp.py . 
 
-CMD ["python","myapp.py"]
+CMD ["python", "myapp.py"]
